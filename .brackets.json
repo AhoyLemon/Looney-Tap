@@ -1,0 +1,21 @@
+{
+    "path": {
+        "scss/looney.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "output": "../css/looney.css",
+                "includePaths": [
+                    "include"
+                ],
+                "imagePath": null,
+                "sourceComments": "map",
+                "sourceMap": "../css/sassy.css.map",
+                "outputStyle": "nested"
+            },
+            "linting.collapsed": true
+        },
+        "scss/include/*.scss": {
+            "sass.enabled": false
+        }
+    }
+}
